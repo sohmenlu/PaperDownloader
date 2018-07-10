@@ -48,7 +48,7 @@ public class Runner implements Runnable
 		{
 			out.println(s0+"#"+s1);
 		} catch (IOException e) {
-			//exception handling left as an exercise for the reader
+			System.out.println("Could not create the file 'Error.txt'.")
 		}
 	}
 
